@@ -169,10 +169,12 @@ function updateScore(playerchoice,computerChoice){
         res.setAttribute('id','winner')
         result = "You Won yay! 🤩"
         resultBoard.appendChild(refreshBtn)
+        playerChoice.forEach(cho => cho.disabled = true)
     }else if (cp == 5){
         res.setAttribute('id','winner')
-        result = "You loose today! 😭"
+        result = "Dumb human, You lost! 😭"
         resultBoard.appendChild(refreshBtn)
+        playerChoice.forEach(cho => cho.disabled = true)
     } else{
 
         if (playerchoice == computerChoice){
