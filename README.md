@@ -1,4 +1,5 @@
 ﻿**Simple Rock-paper-scissors game**
+ 
 Link to the project: [Demo](https://calmighted.github.io/rock-paper/)
 **Goal**: To built a simple Rock-paper-scissors game which:
  - A single user can play.
